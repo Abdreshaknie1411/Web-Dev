@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <h1>Регистрация</h1>
+    <form name="signup" action="##" method="post">
+        <div calss="login">
+            <label>Введите логин:</label>
+            <input type="text" name="username"/>
+        </div>
+        <div calss="Emali">
+            <label>Введите E-mail:</label>
+            <input type="email" name="email"/>
+        </div>
+        <div class="password">
+            <label>Введите пароль:</label>
+            <input type="password" name="password"/>
+        </div>
+        <div class="gender">
+            <label>Укажите пол:</label>
+            <input type="radio" name="sex" value="0"/>Мужской
+            <input type="radio" name="sex" value="1"/>Женский
+        </div>
+        <div class="check">
+            <label>Я ознокомлен на правилами:</label>
+            <input type="checkbox" name="rules"/>
+        </div>
+        <div class="pictures">
+            <label>Загрузит фото:</label>
+            <input type="file" name="avatar"/>
+        </div>
+        <div class="Dateofyear">
+            <label>Год рождение:</label>
+            <select name="year">
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+            </select>
+        </div>
+        <div class="text">
+            <textarea placeholder="Введите текст собшщение......."></textarea>
+        </div>
+        <input class="submit" type="submit" name="Зарегистроватция" value="Зарегистроватция"/>
+    </form>
+</body>
+</html>

@@ -1,0 +1,40 @@
+.Login {
+    color:palegoldenrod;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    font-size: medium;
+    border-radius: 50px;
+}
+.Email {
+    color:burlywood;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    font-style: normal;
+    border-radius: 50px;
+}
+.password {
+    color:burlywood;
+    border-radius: 50px;
+}
+.gender {
+    background-color: antiquewhite;
+    color: aquamarine;
+    display: inline;
+}
+.Dateofyear {
+    color: beige;
+    background-color: cadetblue;
+    opacity:0.3;
+    border-radius: 40px;
+    display: inline;
+}
+.text {
+    color: beige;
+    background-color: bisque;
+    border-radius: 40px;
+    display:block;
+}
+.submit {
+    background-image: -moz-repeating-radial-gradient();
+    background-size: cover;
+}

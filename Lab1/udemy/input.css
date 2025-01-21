@@ -1,0 +1,16 @@
+.name {
+    display: inline;
+}
+body {
+    margin: 0px auto;
+}
+.date {
+    box-sizing: content-box;
+    margin: 0px auto;
+}
+.input {
+    display: table-column;
+}
+.SubRes {
+    display: inline;
+}
