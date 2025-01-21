@@ -1,0 +1,31 @@
+body {
+    background-color:aquamarine;
+    background-attachment: fixed;
+    
+}
+.Travel {
+    border:50px;
+    color:brown;
+    background-color: blueviolet;
+    border-color: brown;
+}
+.about {
+    color: coral;
+    animation-play-state:unset;
+}
+.about .text {
+    color: crimson;
+}
+.Price {
+    color:darkviolet;
+    grid-template-rows: min-content;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    text-decoration-line:underline;
+    top: auto;
+    bottom:50px;
+}
+.cityes {
+    color:darkorange;
+    border-image-width:50px;
+}
