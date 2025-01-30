@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.container {
+    max-width:750px;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+    min-width:100vh;
+    margin-top:32px;
+    
+}
+.container_left {
+    margin-right:32px;
+    margin-bottom:12px;
+}
+.container_left img  {
+    width:380px;
+    height:581px;
+}
+.container_right {
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    margin-top: 12px;
+    max-width: 350px;
+}
+.right_high {
+   padding:10px 0;
+   border-radius:1px;
+   box-sizing: border-box;
+   display: flex;
+   flex-direction:column;
+   flex-shrink: 0;
+   font: inherit;
+   font-size:100%;
+   position: relative;
+   margin-bottom:10px;
+   align-items: center;
+   display: block;
+   text-align: center;
+   border: 1px solid rgba(128, 128, 128, 0.3);
+
+}
+input {
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    width:267px;
+    margin:0 40px;
+    margin-bottom:6px;
+    font-size:14px;
+    height:37px;
+    padding:9px 0px 7px 8px;
+    line-height:18px;
+}
+button {
+    width:267px;
+    margin:8px 40px;
+    height:32px;
+    border-radius:6px;
+    padding:7px 16px;
+    background-color: rgb(0, 149, 246);
+    color:white;
+    border:0.5px;
+}
+p {
+    margin:14px 40px 22px 40px;
+}
+#or:before,
+#or:after {
+    content: '-------------------';
+    color: rgba(128, 128, 128, 0.7);
+    margin: 0 10px;
+}
+#or {
+    font-size:13px;
+}
+form {
+    margin-top:24px;
+}
+.instaLogo img {
+    width:175px;
+    margin-top:36px;
+    margin-bottom:12px;
+}
+.fb-login {
+    margin:8px 40px;
+    font-weight: 600;
+    font-size: 14px;
+    color:rgb(0, 149, 246);
+    cursor: pointer;
+    line-height:18px;
+}
+.forget {
+    margin-top:12px;
+    font-size:14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.right_under {
+    font-size:14px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    padding:10px 0;
+    margin-bottom:10px;
+    text-align: center;
+
+}
+.right_under a{
+    color: rgb(0, 149, 246);
+    cursor: pointer;
+}
+p {
+    margin:15px;
+    font-weight: 400;
+    font-size:14px;
+}
+.get-app {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.store {
+    display: flex;
+    align-items:center;
+}
+.store .play {
+    width:190px;
+}
+.store img {
+    width: 135px;
+    border-radius:8px;
+}
+a {
+    text-decoration: none;
+}

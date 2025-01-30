@@ -1,0 +1,217 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body {
+    align-items: center;
+    justify-content: space-between;
+}
+.header {
+    text-decoration: none;
+    max-width:1471px;
+}
+.header-inner {
+    display: flex;
+    align-items: center;
+    padding:0 73px;
+    margin-bottom:2px;
+    height:54px;
+    font-size:13px !important;
+}
+.header-left {
+    display: flex;
+    align-items: center;
+    height:100%;
+
+}
+.header-img img {
+    padding:16px 6px 16px 10px;
+    margin-top:1px;
+    width:140px;
+}
+.menu {
+    width:820px;
+    align-items: center;
+    gap:30px;
+}
+.menu a {
+    border: 1px solid transparent;
+    color: #262626;
+    display: inline-block;
+    margin-top: 1px;
+    padding: 16px 8px 10px;
+    height: 48px;
+    outline-offset: -2px;
+}
+.header-right {
+    justify-content:flex-end;
+    align-items: center;
+}
+.header-right a {
+    border: 1px solid transparent;
+    color: #262626;
+    display: inline-block;
+    margin-top: 1px;
+    padding: 16px 8px 10px;
+    height: 48px;
+    outline-offset: -2px;
+}
+.center {
+    
+    background-image:url("images/Highlight-M365-Icon-Bounce_VP5-1920x600.avif");
+    align-self: center;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:96px;
+}
+.center-inner {
+    width:100%;
+    height:491px;
+    text-align:left;
+    align-items: center;
+    
+
+}
+.inner-inner {
+    width:35%;
+    margin-left:120px;
+    margin-top:120px;
+
+}
+.text {
+    font-size: 1.0125rem;
+    font-weight: 600;
+    line-height:1.2;
+    margin-bottom:20px;
+}
+.text-center {
+    margin-bottom:24px;
+    font-size:16px;
+    line-height:24px;
+    font-family: "Segoe UI", "SegoeUI";
+    font-weight: 400;
+}
+.button button{
+    background-color: #0067b8;
+    width:184px;
+    height:39px;
+    color:white;
+    border:0.8px;
+    border-radius:6px;
+}
+.footer {
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    max-width:1471px;
+    height:100vh;
+}
+.footer-inner {
+    height:100%;
+    display:flex;
+    padding:0 73px;
+
+}
+.footer-inner img {
+    width:313px;
+    height:175px;
+}
+.bloc1 {
+    padding:0 12px;
+}
+.text-block1 {
+    padding:24px 24px 0px 24px;
+}
+.block2 {
+    padding:0 12px;
+}
+.text-block2 {
+    padding:24px 24px 0px 24px;
+}
+.button1 {
+    padding:16px 24px;
+}
+.button1 button {
+    margin:8px 0;
+    padding:10px 12px;
+    border:1.6px;
+    background-color:#0067b8;
+    color:white;
+    font-size:16px;
+    font-weight: 600;
+    row-gap:7px;
+    align-items: center;
+}
+.button2 {
+    padding:16px 24px 24px 24px;
+}
+.button2 button{
+    margin-top:30px;
+    padding:10px 12px;
+    border:1.6px;
+    background-color:#0067b8;
+    color:white;
+    font-size:16px;
+    font-weight: 400;
+    row-gap:7px;
+    align-items: center;
+    text-align: center;
+}
+.block3 {
+    padding:0 12px;
+}
+.text-block3 {
+    padding:24px 24px 0px 24px;
+}
+.button3 {
+    padding:16px 24px 24px 24px;
+}
+.button3 button {
+    margin-top:47px;
+    padding:10px 12px;
+    border:1.6px;
+    background-color:#0067b8;
+    color:white;
+    font-size:16px;
+    font-weight: 400;
+    row-gap:7px;
+    align-items: center;
+    text-align: center;
+}
+.block4 {
+    padding:0 12px;
+}
+.text-block4 {
+    padding:24px 24px 0px 24px;
+}
+.button4 {
+    padding:16px 24px;
+}
+.button4 button {
+    margin:8px 0;
+    padding:10px 12px;
+    border:1.6px;
+    background-color:#0067b8;
+    color:white;
+    font-size:16px;
+    font-weight: 600;
+    row-gap:7px;
+}
+
+a {
+    text-decoration: none;
+}
+h2 {
+    margin-bottom:16px;
+    font-size: 1.8125rem;
+}
+.min-text {
+    font-weight: 400;
+    font-size:16px;
+    line-height:24px;
+    font-family: "Segoe UI","SegoeUI","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
