@@ -125,6 +125,7 @@ body {
 }
 .text-block1 {
     padding:24px 24px 0px 24px;
+    box-shadow:3px 3px 3px 3px rgba(200.200.200.0.2);
 }
 .block2 {
     padding:0 12px;
