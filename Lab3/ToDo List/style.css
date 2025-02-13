@@ -76,7 +76,7 @@ ul {
 }
 li {
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-start;
     background: #f4f0f0;
     padding: 10px;
     margin: 5px 0;
@@ -101,4 +101,7 @@ li button {
 li button:hover {
     background-color:rgb(205, 30, 30);
     font-weight: 600;
+}
+li span {
+    flex:1;
 }
