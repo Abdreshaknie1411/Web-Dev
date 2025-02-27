@@ -13,6 +13,7 @@ export class ProductListComponent {
   @Input() products: any[] = [];
   @Output() liked = new EventEmitter<any>();
   @Output() removed = new EventEmitter<any>();
+  @Output() favorite = new EventEmitter<any>();
 
   likeProduct(product: any) {
     this.liked.emit(product);
@@ -22,5 +23,9 @@ export class ProductListComponent {
   removeProduct(product: any) {
     this.removed.emit(product);
     console.log('productList.removeProduct worked success');
+  }
+  favoriteProduct(product:any){
+    this.favorite.emit(product);
+    console.log('productList.favoriteProduct worked success')
   }
 }

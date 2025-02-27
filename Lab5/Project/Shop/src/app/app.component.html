@@ -4,7 +4,7 @@
       <ul>
         <li
           *ngFor="let category of categories"
-          (click)="selectCategory(category)"
+          (click)="selectCategory(category)" class="categories"
         >
           {{ category }}
         </li>
@@ -17,6 +17,7 @@
         [products]="selectedProducts"
         (liked)="likeProduct($event)"
         (removed)="removeProduct($event)"
+        (favorite)="clickFavorite($event)"
       >
       </app-product-list>
     </div>

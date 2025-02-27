@@ -9,7 +9,7 @@ import { ProductListComponent } from './Components/product-list/product-list.com
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  categories = ['Food', 'Drinks', 'Sauce', 'Desert'];
+  categories = ['Food', 'Drinks', 'Sauce', 'Desert','Favorite'];
   products: {
     id: number;
     name: string;
@@ -17,16 +17,23 @@ export class AppComponent {
     likes: number;
     imageUrl: string;
     isLiked?: boolean;
+    isFavorite?:boolean;
   }[];
 
   selectedCategory: string | null = null;
   selectedProducts: any[] = [];
+  selectedFavorite: any[]=[];
 
   selectCategory(category: string) {
     this.selectedCategory = category;
-    this.selectedProducts = this.products.filter(
-      (product) => product.category === category
-    );
+  
+    if (category === 'Favorite') {
+      this.selectedProducts = this.selectedFavorite;
+    } else {
+      this.selectedProducts = this.products.filter(
+        (product) => product.category === category
+      );
+    }
   }
 
   likeProduct(product: any) {
@@ -46,6 +53,15 @@ export class AppComponent {
       (p) => p.id !== product.id
     );
     console.log('app.removeProduct worked success');
+  }
+  clickFavorite(product: any) {
+    product.isFavorite = !product.isFavorite;
+    
+    if (product.isFavorite) {
+      this.selectedFavorite.push(product);
+    } else {
+      this.selectedFavorite = this.selectedFavorite.filter(p => p.id !== product.id);
+    }
   }
 
   constructor() {

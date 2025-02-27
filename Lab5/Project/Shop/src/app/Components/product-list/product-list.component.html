@@ -1,9 +1,10 @@
 <div class="product-list">
     <div *ngFor="let product of products" class="product-item">
       <app-product-item
-        [product]="product"
+        [product1]="product"
         (liked)="likeProduct($event)"
         (removed)="removeProduct($event)"
+        (favorite)="favoriteProduct($event)"
       ></app-product-item>
     </div>
   </div>
