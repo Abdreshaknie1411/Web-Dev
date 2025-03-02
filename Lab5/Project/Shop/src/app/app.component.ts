@@ -13,6 +13,7 @@ export class AppComponent {
   products: {
     id: number;
     name: string;
+    price:string;
     category: string;
     likes: number;
     imageUrl: string;
@@ -69,6 +70,7 @@ export class AppComponent {
       {
         id: 1,
         name: 'Cheese Burger',
+        price:'35$',
         category: 'Food',
         likes: 0,
         imageUrl:
@@ -77,6 +79,7 @@ export class AppComponent {
       {
         id: 2,
         name: 'Donut',
+        price:'35$',
         category: 'Food',
         likes: 0,
         imageUrl:
@@ -85,6 +88,7 @@ export class AppComponent {
       {
         id: 3,
         name: 'Beef Burger',
+        price:'35$',
         category: 'Food',
         likes: 0,
         imageUrl:
@@ -93,6 +97,7 @@ export class AppComponent {
       {
         id: 4,
         name: 'Salad',
+        price:'35$',
         category: 'Food',
         likes: 0,
         imageUrl:
@@ -101,6 +106,7 @@ export class AppComponent {
       {
         id: 5,
         name: 'Fries',
+        price:'35$',
         category: 'Food',
         likes: 0,
         imageUrl:
@@ -109,6 +115,7 @@ export class AppComponent {
       {
         id: 6,
         name: 'Coffee',
+        price:'35$',
         category: 'Drinks',
         likes: 0,
         imageUrl:
@@ -117,6 +124,7 @@ export class AppComponent {
       {
         id: 7,
         name: 'Juice',
+        price:'35$',
         category: 'Drinks',
         likes: 0,
         imageUrl:
@@ -125,6 +133,7 @@ export class AppComponent {
       {
         id: 8,
         name: 'MilkShake',
+        price:'35$',
         category: 'Drinks',
         likes: 0,
         imageUrl:
@@ -133,6 +142,7 @@ export class AppComponent {
       {
         id: 9,
         name: 'Water',
+        price:'35$',
         category: 'Drinks',
         likes: 0,
         imageUrl:
@@ -141,6 +151,7 @@ export class AppComponent {
       {
         id: 10,
         name: 'Cola',
+        price:'35$',
         category: 'Drinks',
         likes: 0,
         imageUrl:
@@ -149,6 +160,7 @@ export class AppComponent {
       {
         id: 11,
         name: 'BBQ',
+        price:'35$',
         category: 'Sauce',
         likes: 0,
         imageUrl:
@@ -157,6 +169,7 @@ export class AppComponent {
       {
         id: 12,
         name: 'Tomato',
+        price:'35$',
         category: 'Sauce',
         likes: 0,
         imageUrl:
@@ -165,6 +178,7 @@ export class AppComponent {
       {
         id: 13,
         name: 'Garlic',
+        price:'35$',
         category: 'Sauce',
         likes: 0,
         imageUrl:
@@ -173,6 +187,7 @@ export class AppComponent {
       {
         id: 14,
         name: 'Sour Cream',
+        price:'35$',
         category: 'Sauce',
         likes: 0,
         imageUrl:
@@ -181,6 +196,7 @@ export class AppComponent {
       {
         id: 15,
         name: 'Salsa',
+        price:'35$',
         category: 'Sauce',
         likes: 0,
         imageUrl:
@@ -189,6 +205,7 @@ export class AppComponent {
       {
         id: 11,
         name: 'Donut',
+        price:'35$',
         category: 'Desert',
         likes: 0,
         imageUrl:
@@ -197,6 +214,7 @@ export class AppComponent {
       {
         id: 12,
         name: 'Apple Pie',
+        price:'35$',
         category: 'Desert',
         likes: 0,
         imageUrl:
@@ -205,6 +223,7 @@ export class AppComponent {
       {
         id: 13,
         name: 'Cookie',
+        price:'35$',
         category: 'Desert',
         likes: 0,
         imageUrl:
@@ -213,6 +232,7 @@ export class AppComponent {
       {
         id: 14,
         name: 'Muffin',
+        price:'35$',
         category: 'Desert',
         likes: 0,
         imageUrl:
@@ -221,6 +241,7 @@ export class AppComponent {
       {
         id: 15,
         name: 'Brownie',
+        price:'35$',
         category: 'Desert',
         likes: 0,
         imageUrl:
