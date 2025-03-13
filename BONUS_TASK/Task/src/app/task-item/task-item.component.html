@@ -1,1 +1,6 @@
-<p>task-item works!</p>
+<div class="task-item" (click)="viewDetails()">
+  <h2>{{ task.title }}</h2>
+  <p >Status: <span [ngStyle]="{'color':task.status === 'Not completed' ? 'orange' : 'green'}">{{ task.status }}</span></p>
+  <p>Deadline: {{ task.deadline | date }}</p>
+  <button (click)="markAsCompleted($event)">Mark as Completed</button>
+</div>

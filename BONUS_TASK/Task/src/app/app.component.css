@@ -11,3 +11,11 @@ h2{
     margin: 6px 0;
     font-size: 30px;
 }
+.container {
+    display: flex;
+    max-width:1400px;
+    margin:0 auto;
+}
+.category{
+    margin-right:60px;
+}
