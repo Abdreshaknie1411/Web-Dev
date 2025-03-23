@@ -1,0 +1,29 @@
+.albumsList{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8fafb;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+h2 {
+    text-align: center;
+}
+ul {
+    text-align:left;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.albumList1 {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding:4px 5px;
+    border: 1px solid black;
+}
+.Albums{
+    max-width:640px;
+    margin: 0 auto;
+}

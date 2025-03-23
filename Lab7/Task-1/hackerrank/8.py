@@ -1,0 +1,6 @@
+n = int(input())
+arr1 = set(map(int, input().split()))  
+m = int(input())
+arr2 = set(map(int, input().split()))  
+union_set = arr1.union(arr2)  
+print(len(union_set)) 

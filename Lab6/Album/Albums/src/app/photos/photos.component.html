@@ -1,0 +1,6 @@
+<p>album-photos works!</p>
+<h2>Album Photos</h2>
+<div *ngFor="let photo of photoList">
+  <img [src]="photo.thumbnailUrl" [alt]="photo.title">
+</div>
+<button routerLink="..">Return back</button>
