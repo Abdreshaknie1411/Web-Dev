@@ -13,6 +13,7 @@ class ListAllProducts(View):
         product=list(Product.objects.values("id","name","price","description","count","is_active","category__name"))
         return JsonResponse(product,safe=False,json_dumps_params={"indent": 2})
     def post(self,request):
+        return()
         
     
 class OneProduct(View):
@@ -30,8 +31,8 @@ class OneProduct(View):
 
 class ListAllCategory(View):
     def get(self,request):
-        product=list(Category.objects.values("name"))
-        return JsonResponse(product,safe=False,json_dumps_params={"indent": 2})
+        company=list(Category.objects.values("name"))
+        return JsonResponse(company,safe=False,json_dumps_params={"indent": 2})
     
 class OneCategories(View):
     def get(self,request,id):

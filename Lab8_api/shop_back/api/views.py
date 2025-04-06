@@ -28,12 +28,16 @@ class ListOfProduct(APIView):
             return Response(serializer.data,status=status.HTTP_201_CREATED)
         return Response(serializer.errors,status=status.HTTP_400_BAD_REQUEST)
     
-    
 class ViewDetailProduct(APIView):
     def get(self,request,id):
         product=get_object_or_404(Product,id=id)
         serializer = SerializerProduct(product)
         return Response(serializer.data)
+    
+    def delete(self,request,id):
+        product = get_object_or_404(Product,id=id)
+        product.delete()
+        return Response({"message": "Product deleted successfully"},status=status.HTTP_204_NO_CONTENT)
     
 class ViewCategoryList(APIView):
     def get(self,request):
@@ -46,6 +50,11 @@ class ViewDetailCategory(APIView):
         category = get_object_or_404(Category,id=id)
         serializer = SerializerCategory(category)
         return Response(serializer.data)
+    
+    def delete(self,request,id):
+        category = get_object_or_404(Category,id=id)
+        category.delete()
+        return Response({"message": "Product deleted successfully"},status=status.HTTP_204_NO_CONTENT)
     
 class ViewProductByCategory(APIView):
     def get(self,request,id):
