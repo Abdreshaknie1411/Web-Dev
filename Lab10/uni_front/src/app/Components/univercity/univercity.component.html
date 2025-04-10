@@ -1,0 +1,9 @@
+<div class="univer-list">
+    <h2>Univercities</h2>
+    <div *ngFor="let univer of univerList" class="univers">
+        <p>Name:<a [routerLink]="['/internship']">{{univer.name}} - Internships</a></p>
+        <p>Description:{{univer.description}}</p>
+        <p>City:{{univer.city}}</p>
+        <p>Address:{{univer.address}}</p>
+    </div>
+</div>

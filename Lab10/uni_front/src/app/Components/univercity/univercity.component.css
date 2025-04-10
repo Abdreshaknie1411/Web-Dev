@@ -1,0 +1,45 @@
+.univer-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.univers {
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.univers h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.univers p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.univers a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.univers a:hover {
+    text-decoration: underline;
+}
+
+.univers p {
+    color: #555;
+    font-size: 1rem;
+}
+
+.univers p a {
+    color: #28a745;
+}

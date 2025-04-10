@@ -1,0 +1,10 @@
+<div class="internship-list">
+    <h2>Internships</h2>
+    <div *ngFor="let internship of internshipList" class="internship">
+        <p>Title:{{internship.title}}</p>
+        <p>Description:{{internship.description}}</p>
+        <p>Step:{{internship.step}}</p>
+        <p>Corresponding:{{internship.corresponding}}</p>
+    </div>
+    <button [routerLink]="['/univercities']">Back To</button>
+</div>

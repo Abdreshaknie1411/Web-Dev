@@ -1,0 +1,9 @@
+<div class="login">
+    <div class="login-form">
+        <h2>Кіру</h2>
+        <input type="text" [(ngModel)]="username" placeholder="Логин">
+        <input type="password" [(ngModel)]="password" placeholder="Құпиясөз">
+        <button (click)="loginUser()">Кіру</button>
+        <p style="color:red">{{ errorMessage }}</p>
+    </div>
+</div>
