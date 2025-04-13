@@ -13,12 +13,20 @@ export class UniverService {
 
   constructor(private httpclient:HttpClient) { }
 
-  login(username:string,password:string):Observable<any>{
-    return this.httpclient.post('http://localhost:8000/api/login/',{
+  registerUser(username:string,password:string):Observable<any>{
+    return this.httpclient.post('http://localhost:8000/api/register/',{
       username:username,
-      password:password
+      password:password,
     })
   }
+
+  login(username:string,password:string):Observable<{ access: string; refresh: string }>{
+    return this.httpclient.post<{ access: string; refresh: string }>('http://localhost:8000/api/login/',{
+      username,
+      password
+    })
+  }
+
 
   getUniverList():Observable<Univercity[]>{
     return this.httpclient.get<Univercity[]>('http://localhost:8000/api/univercities/');
@@ -28,6 +36,6 @@ export class UniverService {
     return this.httpclient.get<Internship[]>('http://localhost:8000/api/internship/');
   }
   getIntershipDetail(id:number): Observable<Internship[]>{
-    return this.httpclient.get<Internship[]>(`http://localhost:8000/api/internship/${id}`)
+    return this.httpclient.get<Internship[]>(`http://localhost:8000/api/univercities/internship/${id}`)
   }
 }

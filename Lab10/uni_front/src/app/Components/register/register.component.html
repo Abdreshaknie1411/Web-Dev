@@ -1,0 +1,8 @@
+<div class="register-form">
+    <h2>Тіркелу</h2>
+    <input type="text" placeholder="Логин" [(ngModel)]="username" />
+    <input type="email" placeholder="Email" [(ngModel)]="email" />
+    <input type="password" placeholder="Құпия сөз" [(ngModel)]="password" />
+    <button (click)="register()" [routerLink]="['/univercities']">Тіркелу</button>
+    <p style="color:red">{{ errorMessage }}</p>
+  </div>

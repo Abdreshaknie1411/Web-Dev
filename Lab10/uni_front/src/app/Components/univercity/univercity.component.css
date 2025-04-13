@@ -43,3 +43,25 @@
 .univers p a {
     color: #28a745;
 }
+.univer-list button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;  /* Жасыл түсті фон */
+    color: white;  /* Ақ түс */
+    border: none;
+    border-radius: 5px;  /* Дөңгелектелген бұрыштар */
+    cursor: pointer;  /* Курсорды көрсететін стиль */
+    transition: background-color 0.3s ease;  /* Фон түсі өзгергенде анимация */
+}
+  
+.univer-list button:hover {
+    background-color: #45a049;  /* Батырма үстінен өткені кезде көбірек қараңғы жасыл */
+}
+  
+.univer-list button:focus {
+    outline: none;  /* Фокус кезінде сызаттың болмауы */
+}
+  
+.univer-list button:active {
+    background-color: #3e8e41;  /* Батырма басылған кезде түс өзгеруі */
+}

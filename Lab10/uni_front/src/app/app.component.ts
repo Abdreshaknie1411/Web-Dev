@@ -2,11 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { RouterOutlet,RouterLink, RouterModule} from '@angular/router';
 import { LoginComponent } from "./Components/login/login.component";
 import { Router } from '@angular/router';
+import { HomeComponent } from "./Components/home/home.component";
 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, RouterLink, RouterModule],
+  imports: [RouterOutlet, RouterModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

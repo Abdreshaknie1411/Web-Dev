@@ -1,10 +1,18 @@
 from django.shortcuts import get_object_or_404
 from rest_framework.views import APIView
 from .models import Univercity,Internship
-from .serializers import UniSerializers,InternshipSerializers
+from .serializers import UniSerializers,InternshipSerializers,RegisterSerializer
 from rest_framework.response import Response
 
 # Create your views here.
+
+class Register(APIView):
+    def post(self,request):
+        serializer = RegisterSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response({'message':'User registered successfully',})
+        return Response(serializer.error)
 
 class ViewUnivercity(APIView):
     def get(self,request):
